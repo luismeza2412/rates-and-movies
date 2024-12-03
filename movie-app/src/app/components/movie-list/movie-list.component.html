@@ -1,0 +1,9 @@
+<div class="movies-container" *ngIf="movies.length">
+    <div class="movie-card" *ngFor="let movie of movies">
+      <img [src]="movie.Poster" alt="{{ movie.Title }}" />
+      <h3>{{ movie.Title }}</h3>
+      <p>{{ movie.Year }}</p>
+    </div>
+  </div>
+  <p>{{haveData}}</p>
+  
