@@ -58,6 +58,8 @@
       border-radius: 5px;
       cursor: pointer;
       transition: background-color 0.3s ease;
+      grid-column: 1 / -1;
+      justify-self: end;
 
 
       &:hover {
@@ -112,16 +114,15 @@
     .btn-primary {
       font-size: 0.9rem;
       padding: 8px 10px;
+      width: 100%;
     }
-
+  
     .form-group {
       display: flex;
       flex-direction: column;
       width: 100%;
     }
 
-    .form-control {
-      width: 90%;
-    }
+   
   }
 }
